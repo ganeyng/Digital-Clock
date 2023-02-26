@@ -1,0 +1,68 @@
+body{
+    background-color: #869792;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock{
+    width: 20rem;
+    height: 16rem;
+    /* background-color: #56685a; */
+    color: #4dffde;
+    background-color: #262f28;
+    border: 20px outset #000000;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.belt{
+    background-color: #000000;
+    width: 12rem;
+    height: 13.6rem;
+    border-left: 3px outset #000000;
+    border-right: 3px outset #000000;
+}
+
+.holes{
+    background-color: #869792;
+    width: .75rem;
+    height: .5rem;
+    border-radius: .16rem;
+    border: 1px inset #000000;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time{
+    font-family: Segoe UI ;
+    font-size: 5.1rem;
+    font-weight: bold;
+}
+
+.date, .sec{
+    font-size: 1.8rem;
+    opacity: .6;
+}
+
+.sec-bar{
+    background-color: #4dffde;
+    /* width: 240px; */
+    height: .5rem;
+    border-radius: .25rem;
+}
